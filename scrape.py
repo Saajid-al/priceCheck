@@ -42,4 +42,6 @@ def sendMail(): #SENDING MAIL FUNCTION
     print("EMAIL SENT")
     server.quit()
 
-priceCheck()
+while(True):
+    priceCheck()
+    sleep(3600)
